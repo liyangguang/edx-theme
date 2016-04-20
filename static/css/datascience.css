@@ -4,14 +4,9 @@ body {
   background: #f5f5f5;
 }
 
-a {
-  color: inherit;
+a, a:hover, a:active, a:focus{
+  color: inherit !important;
   cursor: pointer;
-}
-
-a:hover, a:active, a:focus {
-  color: inherit;
-  text-decoration: none;
 }
 
 .ul-inline {
@@ -96,6 +91,7 @@ header {
   font-size: 24px;
   margin: 8px 0 0 0px;
   font-family: BentonSansCompBold, Arial, Helvetica, sans-serif;
+  color: white;
 }
 
 .navbar-collapse {
@@ -179,7 +175,7 @@ header {
 }
 
 /* -------------------- footer ------------------ */
-footer {
+.wrapper-footer {
   padding: 30px 20px 20px;
   background: #555;
   color: white;
